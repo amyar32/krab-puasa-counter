@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "A. Y. Firdaus",
   "license": "ISC",
@@ -13,6 +13,10 @@
     "base-64": "^1.0.0",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
-    "hijri-date": "^0.2.2"
+    "hijri-date": "^0.2.2",
+    "set-interval": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
